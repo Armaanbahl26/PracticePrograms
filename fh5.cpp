@@ -1,8 +1,8 @@
 //writing data in file closing it reopening it and appending data
-#include<iostream>
-#include<fstream>
+#include<iostream>//including input file stream
+#include<fstream>//includes
 using namespace std;
-int main()
+int main()//in main function
 {
 	fstream o1;
 	o1.open("file1",ios::out);
