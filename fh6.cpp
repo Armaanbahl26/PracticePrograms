@@ -2,11 +2,11 @@
 #include<iostream>//for that use put function
 #include<fstream>
 using namespace std;
-int main()
+int main()//main function
 {
 	fstream o1;
 	char ch[1000];
-	o1.open("file1",ios::in);
+	o1.open("file1",ios::in);//opening an input file
 	if(!o1)
 	{
 		cout<<"error";
