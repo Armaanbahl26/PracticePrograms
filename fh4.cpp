@@ -1,8 +1,8 @@
 //writing content into the file
 #include<iostream>
-#include<fstream>
+#include<fstream>//include files
 using namespace std;
-int main()
+int main ()//in main function
 {
 	fstream o1;
 	o1.open("file3",ios::out);//opening of file already exhisted
