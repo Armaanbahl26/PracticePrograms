@@ -1,5 +1,5 @@
 //writing content into the file
-#include<iostream>
+#include<iostream>//includes input output stream
 #include<fstream>//include files
 using namespace std;
 int main ()//in main function
