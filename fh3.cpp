@@ -1,7 +1,7 @@
 #include<iostream>//closing of a file
-#include<fstream>
+#include<fstream> //incliding input and output file stream
 using namespace std;
-int main()
+int main()//in main function
 {
 	fstream o1;
 	o1.open("file3",ios::out);
